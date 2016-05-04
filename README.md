@@ -93,3 +93,6 @@ CORS issues might be encountered. There are several ways to bypass this.
 4. Use an application such as [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) to perform test API calls (to eliminate the option that the problem is caused by your blog).
 
 5. (**Not recommended**) Download extensions such as [Allow-Control-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi) to disable CORS protection for your browser. There are alternatives for literally any browser out there.
+
+# Contributions
+Feel free to submit clone requests with added WordPress functions/features (provide details). Also, please keep everything well-documented.
