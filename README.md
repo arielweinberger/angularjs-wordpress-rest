@@ -9,17 +9,17 @@ During my work as a hybrid mobile applications developer (using Ionic Framework)
 # Setup
 It's dead simple.
 
-1. Clone the repo /or/ download as ZIP /or/ manually copy-paste the files located in *src/js/services*.
+Clone the repo /or/ download as ZIP /or/ manually copy-paste the files located in *src/js/services*.
 
-2. Include the files in your project's **index.html** file.
+Include the files in your project's **index.html** file.
 ```
 <script src="js/services/rest.js"></script>
 <script src="js/services/wordpress.js"></script>
 ```
 
-3. Add `REST` and `WordPress` as dependencies to your application (preferably REST first).
+Add `REST` and `WordPress` as dependencies to your application (preferably REST first).
 
-4. Inject the WordPress service as `WordPress` to your controller, like so:
+Inject the WordPress service as `WordPress` to your controller, like so:
 ```
 mod.controller('MyCtrl', function (WordPress) {
     // Do stuff...
@@ -32,6 +32,7 @@ Especially when it comes to HTTP requests, we cannot ever make sure that the res
 I have adopted the common usage of Promises (using the default AngularJS $q promises library). This way we can manipulate our data in our own sequence.
 
 Imagine a situation where we need to:
+
 1. Get all categories.
 
 2. Get first 5 posts of a category.
